@@ -83,6 +83,7 @@
     }
 
     .logo-row { display: flex; align-items: center; gap: 10px; }
+    .kotak-logo { width: clamp(64px,18vw,140px); height: auto; display:block; object-fit:contain; border-radius:6px; }
     .kotak-emblem svg { width: clamp(52px,13vw,68px); height: auto; }
     .wordmark { display: flex; flex-direction: row; align-items: baseline; gap: 10px; line-height: 1; }
     .wm-kotak { font-size: clamp(18px,5.2vw,25px); font-weight: 800; color: #e63229; letter-spacing: -0.5px; }
@@ -349,7 +350,7 @@
       <div class="face front">
         <div>
           <div class="logo-row">
-            <div class="kotak-emblem"></div>
+            <img class="kotak-logo" src="header.png" alt="Kotak Life Insurance">
             <div class="wordmark">
               <span class="wm-kotak">kotak</span>
               <span class="wm-sub">Life Insurance</span>
