@@ -82,8 +82,18 @@
       gap: 10px;
     }
 
-    .card-header { display: flex; align-items: center; gap: 10px; padding-bottom: 8px; border-bottom: 1px solid rgba(0,48,135,0.08); }
-    .card-header .kotak-logo { height: 48px; width: auto; display:block; object-fit: contain; }
+    .card-header {display: flex;
+    align-items: center;
+    gap: 6px; }
+    .card-header .kotak-logo { height: 30px; width: auto; display:block; object-fit: contain; align-self: baseline; }
+    .card-header .insurance {
+      font-family: inherit;
+      color: #333;
+      font-size: 18px;
+      font-weight: 500;
+        margin-top: -1px;
+      
+    }
     /* legacy helpers (not used) */
     .kotak-emblem svg { width: clamp(52px,13vw,68px); height: auto; }
 
@@ -349,6 +359,7 @@
         <div>
           <div class="card-header">
             <img src="Kotak_Life_Logo-1.png" alt="Kotak Life Logo" class="kotak-logo">
+            <span class="insurance">Insurance</span>
           </div>
           <div class="divider"></div>
           <div class="pname">Krupali Shilpesh Soni</div>
